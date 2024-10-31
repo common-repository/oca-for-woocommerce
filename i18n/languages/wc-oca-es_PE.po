@@ -1,0 +1,398 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: OCA para WooCommerce\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-11-19 05:54+0000\n"
+"PO-Revision-Date: 2024-10-12 05:58+0000\n"
+"Last-Translator: \n"
+"Language-Team: Español\n"
+"Language: es_ES\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.10; wp-6.5.5"
+
+#: Sdk/OcaSdk.php:49 Sdk/OcaSdk.php:53
+#, php-format
+#| msgid "%s - Data received from Oca: %s"
+msgid "%1$s - Data received from Oca: %2$s"
+msgstr "%1$s - Data recibida de Oca: %2$s"
+
+#: Sdk/OcaSdk.php:48 Sdk/OcaSdk.php:52
+#, php-format
+#| msgid "%s - Data sent to Oca: %s"
+msgid "%1$s - Data sent to Oca: %2$s"
+msgstr "%1$s - Data enviada a Oca: %2$s"
+
+#: Rest/OrdersRest.php:308
+#, php-format
+msgid "%1$s-labels-%2$s"
+msgstr "%1$s-etiquetas-%2$s"
+
+#: Orders/Metabox.php:90
+msgid ""
+"A quote for this order has been found. Do you want to proceed? This will "
+"override the current order's shipping method and the additional cost will "
+"not be charged automatically to the customer, make sure to cover it by "
+"yourself. Name: {{shipping_name}} | Price: {{shipping_price}}"
+msgstr ""
+"Una nueva cotización ha sido encontrada para esta orden. Queres continuar? "
+"Esto sobreescribirá el método de envío actual y el costo adicional no será "
+"cobrado automáticamente al cliente, asegurate de cubrirlo. Nombre: "
+"{{shipping_name}} | Precio: {{shipping_price}}"
+
+#: ShippingMethod/OcaShippingMethod.php:43
+msgid "Allow your customers receive their orders with OCA"
+msgstr "Permite a tus compradores recibir sus compras con Oca"
+
+#: ShippingMethod/OcaShippingMethod.php:60
+msgid "Always free shipping"
+msgstr "Envío gratis siempre"
+
+#: ShippingMethod/OcaShippingMethod.php:72
+msgid ""
+"Automatically enables free shipping in a time range, use format 00-24 to "
+"enable or leave blank to disable. For example: \"04-18\" will enable free "
+"shipping from 04:00am until 06:00pm in Argentinian timezone."
+msgstr ""
+"Activa automáticamente el envío gratuito en una franja horaria, usar el "
+"formato 00-24 para activar o dejar en blanco para desactivar. Por ejemplo: "
+"\"04-18\" activará el envío gratuito desde las 04:00am hasta 06:00pm en hora "
+"de Argentina."
+
+#: Shortcodes/TrackingShortcode.php:74
+msgid "Branch office"
+msgstr "Sucursal"
+
+#: Orders/Metabox.php:178
+msgid "Cancel order"
+msgstr "Cancelar envío"
+
+#: Orders/Metabox.php:88
+msgid "Cancel shipment"
+msgstr "Cancelar envío"
+
+#: Orders/OrdersProcessor.php:193
+msgid ""
+"Could not cancel the shipment, because the order has not been processed yet"
+msgstr ""
+"No se pudo cancelar el envío, porque la orden no ha sido procesada todavía"
+
+#. Author of the plugin
+msgid "CRPlugins"
+msgstr "CRPlugins"
+
+#: Shortcodes/TrackingShortcode.php:71
+msgid "Date"
+msgstr "Fecha"
+
+#: Orders/Metabox.php:174
+msgid "Download shipping label PDF - 10x15"
+msgstr "Descargar etiqueta de  envío PDF - 10x15"
+
+#: Orders/Metabox.php:173
+#| msgid "Download shipping label PDF"
+msgid "Download shipping label PDF - A4"
+msgstr "Descargar etiqueta de envío PDF - A4"
+
+#: Orders/Metabox.php:86 Orders/Metabox.php:175
+msgid "Download shipping label ZPL"
+msgstr "Descargar etiqueta de envío ZPL"
+
+#: ShippingMethod/OcaShippingMethod.php:64
+msgid "Free shipping from"
+msgstr "Envío gratis desde"
+
+#: ShippingMethod/OcaShippingMethod.php:70
+msgid "Free shipping within time range"
+msgstr "Envío gratuito en franja horaria"
+
+#: Orders/Metabox.php:143
+msgid "Hide shipping cost"
+msgstr "Ocultar costo de envío"
+
+#. Author URI of the plugin
+msgid "https://crplugins.com.ar"
+msgstr "https://crplugins.com.ar"
+
+#: Orders/Metabox.php:80
+msgid "Input a valid package number"
+msgstr "Introduce una cantidad válida de paquetes"
+
+#. Description of the plugin
+msgid "Integración entre OCA y WooCommerce"
+msgstr "Integración entre Oca y WooCommerce"
+
+#: woocommerce-oca.php:285 Orders/OrdersList.php:44 Orders/Metabox.php:83
+msgid "Loading..."
+msgstr "Cargando..."
+
+#: Orders/Metabox.php:82
+msgid "Mail sent"
+msgstr "Mail enviado"
+
+#: Helper/WooCommerceTrait.php:466 Helper/WooCommerceTrait.php:519
+msgid "No products detected, maybe cart is full of virtual items"
+msgstr ""
+"No se detectaron productos, quizás el carrito está lleno de productos "
+"virtuales"
+
+#: Orders/Metabox.php:89
+msgid "No quote was found for this order"
+msgstr "No se encontró una cotización para esta orden"
+
+#: Sdk/OcaSdk.php:57 Sdk/OcaSdk.php:58
+msgid "No response from OCA server"
+msgstr "No hubo respuesta del servidor de OCA"
+
+#: Emails/TrackingMail.php:17
+msgid "Notification to the customer with his tracking number"
+msgstr "Notifación para el cliente con su número de rastreo"
+
+#: Orders/Metabox.php:234
+msgid "Number of packages"
+msgstr "Número de paquetes"
+
+#: Orders/OrdersList.php:59
+msgid "OCA - Download PDF shipping labels - 10x15"
+msgstr "OCA - Descargar etiquetas de envío PDF - 10x15"
+
+#: Orders/OrdersList.php:58
+#| msgid "OCA - Download PDF shipping labels"
+msgid "OCA - Download PDF shipping labels - A4"
+msgstr "OCA - Descargar etiquetas de envío PDF - A4"
+
+#: Orders/OrdersList.php:60
+msgid "OCA - Download ZPL shipping labels"
+msgstr "OCA - Descargar etiquetas de envío ZPL"
+
+#: Rest/OrdersRest.php:503
+#, php-format
+#| msgid "OCA - Number of packages to be sent has been modified from %d to %d"
+msgid "OCA - Number of packages to be sent has been modified from %1$d to %2$d"
+msgstr "OCA - El número de paquetes a enviar ha sido modificado de %1$d a %2$d"
+
+#: Orders/OrdersList.php:48
+msgid "OCA - Process orders"
+msgstr "OCA - Procesar ordenes"
+
+#: Orders/OrdersList.php:53
+msgid "OCA - View shipping labels in PDF - 10x15"
+msgstr "OCA - Ver etiquetas de envío PDF - 10x15"
+
+#: Orders/OrdersList.php:52
+#| msgid "OCA - View shipping labels in PDF"
+msgid "OCA - View shipping labels in PDF - A4"
+msgstr "OCA - Ver etiquetas de envío PDF - A4"
+
+#. Name of the plugin
+msgid "OCA para WooCommerce"
+msgstr "Oca para WooCommerce"
+
+#: Orders/OrdersProcessor.php:223 Orders/OrdersProcessor.php:224
+#, php-format
+msgid "OCA shipment for order %s has been canceled"
+msgstr "El envío de OCA para la orden %s ha sido cancelado"
+
+#: Emails/TrackingMail.php:16
+msgid "OCA Tracking"
+msgstr "Rastreo de OCA"
+
+#: Orders/OrdersList.php:82
+msgid "OCA Tracking number"
+msgstr "No. Rastreo de OCA"
+
+#: Rest/OrdersRest.php:504
+#, php-format
+msgid ""
+"Order %1$d - Number of packages to be sent has been modified from %2$d to "
+"%3$d"
+msgstr ""
+"Orden %1$d - El número de paquetes a enviar ha sido modificado de %2$d a %3$d"
+
+#: Orders/OrdersProcessor.php:168
+#, php-format
+#| msgid "Order %s processed with OCA succesfully, tracking number: %s"
+msgid "Order %1$s processed with OCA succesfully, tracking number: %2$s"
+msgstr "Orden %1$s procesada con OCA con éxito, número de rastreo: %2$s"
+
+#: ShippingLabels/ZplLabelsProcessor.php:10
+msgid "order-%d"
+msgstr "orden-%d"
+
+#: ShippingLabels/Pdf10x15LabelsProcessor.php:10
+msgid "order-%d-10x15"
+msgstr "orden-%d-10x15"
+
+#: ShippingLabels/PdfA4LabelsProcessor.php:10
+msgid "order-%d-A4"
+msgstr "orden-%d-A4"
+
+#: Orders/Metabox.php:81
+msgid "Packages quantity updated"
+msgstr "Cantidad de paquetes actualizada"
+
+#: ShippingMethod/ShippingBranchesManager.php:190
+msgid ""
+"Please fill your shipping information to view the shipping branches near "
+"your area"
+msgstr ""
+"Por favor completa tu información de envío para ver las sucursales cercanas "
+"a tu localidad"
+
+#: Orders/Metabox.php:87 Orders/Metabox.php:226
+msgid "Process order now"
+msgstr "Procesar orden ahora"
+
+#: Helper/WooCommerceTrait.php:477
+#, php-format
+msgid "Product %s with invalid weight in cart"
+msgstr "Producto %s con peso inválido en el carrito"
+
+#: Helper/WooCommerceTrait.php:526
+#, php-format
+msgid "Product %s with invalid weight in order"
+msgstr "Producto %s con peso inválido en la orden"
+
+#: woocommerce-oca.php:88
+#, php-format
+msgid "Requires at least %1$s version %2$s or greater."
+msgstr "Requiere al menos %1$s versión %2$s o mayor."
+
+#: Orders/Metabox.php:177
+msgid "Resend tracking mail"
+msgstr "Reenviar mail de rastreo"
+
+#: Orders/Metabox.php:237
+#| msgid "State"
+msgid "Save"
+msgstr "Guardar"
+
+#: ShippingMethod/ShippingBranchesManager.php:203
+msgid "Select a OCA shipping branch for your order"
+msgstr "Selecciona una sucursal de OCA para recibir tu orden"
+
+#: Orders/Metabox.php:140
+msgid "Set OCA as shipping method"
+msgstr "Usar OCA como medio de envío"
+
+#: woocommerce-oca.php:315
+msgid "Settings"
+msgstr "Opciones"
+
+#: Shortcodes/TrackingShortcode.php:49 Shortcodes/TrackingShortcode.php:67
+msgid "Shipment number"
+msgstr "Número de envío"
+
+#: Shortcodes/TrackingShortcode.php:90
+msgid "Shipment without status"
+msgstr "Envío sin estado"
+
+#: Shortcodes/TrackingShortcode.php:72
+msgid "Status"
+msgstr "Estado"
+
+#: Shortcodes/TrackingShortcode.php:73
+msgid "Status reason"
+msgstr "Motivo del estado"
+
+#: Orders/Metabox.php:152
+#, php-format
+msgid "The order has been processed, tracking number: <strong>%s</strong>"
+msgstr "La orden ha sido procesada, número de rastreo: <strong>%s</strong>"
+
+#: Orders/Metabox.php:197
+msgid "The order is not processed yet"
+msgstr "La orden no ha sido procesada todavía"
+
+#: Orders/Metabox.php:204
+#, php-format
+msgid "The order will be processed when its status is <strong>%s</strong>"
+msgstr "La orden será procesada cuando su estado sea <strong>%s</strong>"
+
+#: Orders/Metabox.php:182
+msgid "The shipment has been canceled"
+msgstr "El envío ha sido cancelado"
+
+#: Orders/Metabox.php:164 Orders/Metabox.php:188 Orders/Metabox.php:215
+#, php-format
+msgid ""
+"The shipping has a cost of <strong>$%s</strong> (hidden to the customer)"
+msgstr "El envío tiene un costo de <strong>$%s</strong> (oculto al cliente)"
+
+#: Orders/OrdersProcessor.php:198 Orders/OrdersProcessor.php:205
+msgid "There was an error canceling the shipment with OCA, please try again"
+msgstr ""
+"Hubo un error cancelado el envío con OCA, por favor intentalo nuevamente"
+
+#: Orders/OrdersProcessor.php:86 Orders/OrdersProcessor.php:105
+msgid ""
+"There was an error processing the order with OCA, check the order items and "
+"try again"
+msgstr ""
+"Hubo un error procesando el pedido con OCA, revisa los productos de la orden "
+"y vuelve a intentarlo"
+
+#: Orders/OrdersProcessor.php:67 Orders/OrdersProcessor.php:73
+#: Orders/OrdersProcessor.php:149
+msgid "There was an error processing the order with OCA, please try again"
+msgstr ""
+"Hubo un error al procesar la orden con OCA, por favor intentalo nuevamente"
+
+#: woocommerce-oca.php:284 ShippingMethod/ShippingBranchesManager.php:48
+#: Shortcodes/TrackingShortcode.php:58 Orders/OrdersList.php:43
+#: Orders/Metabox.php:79
+msgid "There was an error, please try again"
+msgstr "Hubo un error, por favor intentalo nuevamente"
+
+#: ShippingMethod/OcaShippingMethod.php:66
+msgid ""
+"This adds free shipping when the cart amount is greater than the amount "
+"specified. (leave blank to disable)"
+msgstr ""
+"Agrega envío gratis cuando el monto del carrito es mayor que el monto "
+"especificado. (dejalo en blanco para desactivarlo)"
+
+#: Orders/Metabox.php:139
+msgid "This order is not using OCA as shipping method"
+msgstr "Esta orden no está usando OCA como medio de envío"
+
+#: Orders/Metabox.php:84 Orders/Metabox.php:176
+msgid "Track order"
+msgstr "Rastrear orden"
+
+#: Shortcodes/TrackingShortcode.php:53
+msgid "Track shipment"
+msgstr "Rastrear envío"
+
+#: ShippingLabels/AllLabelsProcessor.php:54
+msgid "Tried to create order labels but the order %d is not ready yet"
+msgstr "Se intentó crear etiquetas pero la orden %d no está lista todavía"
+
+#: Orders/OrdersProcessor.php:113
+msgid ""
+"Tried to process a shipment to branch without having one destination branch "
+"selected"
+msgstr ""
+"Se intentó procesar un envío a sucursal sin haber seleccionado previamente "
+"una sucursal de destino"
+
+#: Orders/Metabox.php:85
+msgid "View shipping label"
+msgstr "Ver etiqueta de envío"
+
+#: Orders/Metabox.php:172
+#| msgid "View shipping label - 10x15"
+msgid "View shipping label PDF - 10x15"
+msgstr "Ver etiqueta de envío PDF - 10x15"
+
+#: Orders/Metabox.php:171
+#| msgid "View shipping label - A4"
+msgid "View shipping label PDF - A4"
+msgstr "Ver etiqueta de envío PDF - A4"
+
+#: woocommerce-oca.php:98
+msgid "WooCommerce must be active before using"
+msgstr "WooCommerce debe estar activo antes de usar"
